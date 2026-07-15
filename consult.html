@@ -1,187 +1,198 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sovereign Advisory & Vetting | Celestial Sovereignty</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleSovereign Advisory & Vetting  Celestial Sovereigntytitle
+    !-- Tailwind CSS --
+    script src=httpscdn.tailwindcss.comscript
+    !-- AOS Animation CSS --
+    link href=httpsunpkg.comaos@2.3.1distaos.css rel=stylesheet
+    !-- Google Fonts --
+    link rel=preconnect href=httpsfonts.googleapis.com
+    link rel=preconnect href=httpsfonts.gstatic.com crossorigin
+    link href=httpsfonts.googleapis.comcss2family=Cormorant+Garamondital,wght@0,300;0,500;0,700;1,300&family=Montserratwght@200;400;600&display=swap rel=stylesheet
     
-    <script>
+    script
         tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        serif: ['"Cormorant Garamond"', 'serif'],
-                        sans: ['Montserrat', 'sans-serif'],
+            theme {
+                extend {
+                    fontFamily {
+                        serif ['Cormorant Garamond', 'serif'],
+                        sans ['Montserrat', 'sans-serif'],
                     },
-                    colors: {
-                        obsidian: '#070709',
-                        slateDark: '#121216',
-                        bronzeGold: '#C5A880',
-                        bronzeHover: '#B3946B',
-                        starWhite: '#F3F4F6',
+                    colors {
+                        obsidian '#070709',
+                        slateDark '#121216',
+                        bronzeGold '#C5A880',
+                        bronzeHover '#B3946B',
+                        starWhite '#F3F4F6',
                     }
                 }
             }
         }
-    </script>
-    <style>
+    script
+    style
         .ambient-glow {
-            background: radial-gradient(circle at 50% 30%, rgba(197, 168, 128, 0.08) 0%, rgba(7, 7, 9, 0) 70%);
+            background radial-gradient(circle at 50% 30%, rgba(197, 168, 128, 0.08) 0%, rgba(7, 7, 9, 0) 70%);
         }
-        ::-webkit-scrollbar {
-            width: 6px;
+        -webkit-scrollbar {
+            width 6px;
         }
-        ::-webkit-scrollbar-track {
-            background: #070709;
+        -webkit-scrollbar-track {
+            background #070709;
         }
-        ::-webkit-scrollbar-thumb {
-            background: #121216;
-            border: 1px solid #C5A880;
+        -webkit-scrollbar-thumb {
+            background #121216;
+            border 1px solid #C5A880;
         }
-    </style>
-</head>
-<body class="bg-obsidian text-starWhite font-sans antialiased selection:bg-bronzeGold selection:text-obsidian">
+    style
+head
+body class=bg-obsidian text-starWhite font-sans antialiased selectionbg-bronzeGold selectiontext-obsidian
 
-    <!-- Top Border -->
-    <div class="h-1 bg-gradient-to-r from-transparent via-bronzeGold to-transparent w-full"></div>
+    !-- Top Border --
+    div class=h-1 bg-gradient-to-r from-transparent via-bronzeGold to-transparent w-fulldiv
 
-    <!-- Header -->
-    <header class="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center border-b border-white/5">
-        <div class="flex flex-col">
-            <a href="index.html" class="font-serif text-xl md:text-2xl tracking-[0.25em] uppercase text-bronzeGold font-light">Celestial Sovereignty</a>
-            <span class="text-[9px] tracking-[0.4em] uppercase text-white/40 mt-1">Private Registry & Counsel</span>
-        </div>
-        <div class="hidden md:flex space-x-8 text-xs tracking-[0.2em] uppercase text-white/70">
-            <a href="index.html#protocol" class="hover:text-bronzeGold transition-colors duration-300">The Protocol</a>
-            <a href="gallery.html" class="hover:text-bronzeGold transition-colors duration-300">Class-I Holdings</a>
-            <a href="consult.html" class="text-bronzeGold font-semibold border-b border-bronzeGold pb-1">Sovereign Advisory</a>
-        </div>
-        <div>
-            <a href="index.html" class="border border-white/20 px-5 py-2.5 text-[10px] tracking-[0.25em] uppercase text-white/60 hover:text-white hover:border-white transition-all duration-300">
+    !-- Header --
+    header class=max-w-7xl mx-auto px-6 py-8 flex justify-between items-center border-b border-white5 data-aos=fade-down data-aos-duration=1000
+        div class=flex flex-col
+            a href=index.html class=font-serif text-xl mdtext-2xl tracking-[0.25em] uppercase text-bronzeGold font-lightCelestial Sovereigntya
+            span class=text-[9px] tracking-[0.4em] uppercase text-white40 mt-1Private Registry & Counselspan
+        div
+        div class=hidden mdflex space-x-8 text-xs tracking-[0.2em] uppercase text-white70
+            a href=index.html#protocol class=hovertext-bronzeGold transition-colors duration-500The Protocola
+            a href=gallery.html class=hovertext-bronzeGold transition-colors duration-500Class-I Holdingsa
+            a href=consult.html class=text-bronzeGold font-semibold border-b border-bronzeGold pb-1Sovereign Advisorya
+        div
+        div
+            a href=index.html class=border border-white20 px-5 py-2.5 text-[10px] tracking-[0.25em] uppercase text-white60 hovertext-white hoverborder-white transition-all duration-500
                 Return to Archive
-            </a>
-        </div>
-    </header>
+            a
+        div
+    header
 
-    <!-- Main Content Section -->
-    <section class="min-h-[80vh] ambient-glow px-6 py-20">
-        <div class="max-w-4xl mx-auto">
+    !-- Main Content Section --
+    section class=min-h-[80vh] ambient-glow px-6 py-20
+        div class=max-w-4xl mx-auto
             
-            <!-- Page Header -->
-            <div class="text-center mb-16">
-                <span class="text-[10px] tracking-[0.5em] uppercase text-bronzeGold">Confidential Intake Protocol</span>
-                <h1 class="font-serif text-4xl md:text-6xl font-light tracking-wide text-white mt-3 mb-6">Sovereign Advisory & Vetting</h1>
-                <p class="text-sm md:text-base text-white/60 max-w-2xl mx-auto font-light leading-relaxed">
+            !-- Page Header --
+            div class=text-center mb-16 data-aos=fade-up data-aos-duration=1000
+                span class=text-[10px] tracking-[0.5em] uppercase text-bronzeGoldConfidential Intake Protocolspan
+                h1 class=font-serif text-4xl mdtext-6xl font-light tracking-wide text-white mt-3 mb-6Sovereign Advisory & Vettingh1
+                p class=text-sm mdtext-base text-white60 max-w-2xl mx-auto font-light leading-relaxed
                     Due to the historic weight and future resource valuation of Class-I celestial territories, Celestial Sovereignty does not permit direct retail acquisition. All prospective stewards must complete formal intake and vetting.
-                </p>
-            </div>
+                p
+            div
 
-            <hr class="border-white/5 mb-16">
+            hr class=border-white5 mb-16
 
-            <!-- The Retainer Explainer Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mb-16">
-                <div>
-                    <h2 class="font-serif text-2xl md:text-3xl font-light text-white tracking-wide mb-6">The Purpose of the Retainer</h2>
-                    <p class="text-xs text-white/60 leading-relaxed mb-4 font-light">
+            !-- The Retainer Explainer Grid --
+            div class=grid grid-cols-1 mdgrid-cols-2 gap-12 items-start mb-16
+                div data-aos=fade-right data-aos-duration=1000
+                    h2 class=font-serif text-2xl mdtext-3xl font-light text-white tracking-wide mb-6The Purpose of the Retainerh2
+                    p class=text-xs text-white60 leading-relaxed mb-4 font-light
                         Securing a symbolic legacy declaration and initiating a Swiss-engraved dynastic title requires extensive legal formatting, astrophysical coordinate mapping, and offline vault registration.
-                    </p>
-                    <p class="text-xs text-white/60 leading-relaxed mb-6 font-light">
+                    p
+                    p class=text-xs text-white60 leading-relaxed mb-6 font-light
                         The mandatory consultation retainer separates serious generational planners from casual speculators. It acts as an absolute filter, ensuring our specialty agents dedicate their time solely to verified family offices, founders, and private institutions.
-                    </p>
-                    <div class="border-l-2 border-bronzeGold pl-4 py-1">
-                        <span class="text-[10px] tracking-[0.2em] uppercase text-bronzeGold block font-semibold mb-1">Deduction Guarantee</span>
-                        <p class="text-[11px] text-white/50 italic">The retainer fee is credited in full toward your final planetary acquisition valuation upon successful allocation.</p>
-                    </div>
-                </div>
+                    p
+                    div class=border-l-2 border-bronzeGold pl-4 py-1
+                        span class=text-[10px] tracking-[0.2em] uppercase text-bronzeGold block font-semibold mb-1Deduction Guaranteespan
+                        p class=text-[11px] text-white50 italicThe retainer fee is credited in full toward your final planetary acquisition valuation upon successful allocation.p
+                    div
+                div
 
-                <!-- What's Included Box -->
-                <div class="bg-slateDark border border-white/5 p-8">
-                    <h3 class="font-serif text-xl text-white tracking-wide mb-6 border-b border-white/5 pb-4">Retainer Allocations Include:</h3>
-                    <ul class="space-y-4 text-xs text-white/70 font-light">
-                        <li class="flex items-start">
-                            <span class="text-bronzeGold mr-3 font-serif text-base">I.</span>
-                            <span><strong>Assignment of Dedicated Counsel:</strong> Immediate pairing with a Senior Sovereign Agent for private correspondence via encrypted channels.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-bronzeGold mr-3 font-serif text-base">II.</span>
-                            <span><strong>Classified Dossier Access:</strong> Full orbital mechanics, atmospheric profiles, and mineral valuation data for unlisted Class-I exoplanets.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-bronzeGold mr-3 font-serif text-base">III.</span>
-                            <span><strong>Geneva Title Pre-Registration:</strong> Archival framing and heraldic engraving prep in our Swiss manufacturing vaults.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-bronzeGold mr-3 font-serif text-base">IV.</span>
-                            <span><strong>Private Handover Scheduling:</strong> Coordination of the physical ceremony at your private estate, yacht, or our Geneva facilities.</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                !-- What's Included Box --
+                div class=bg-slateDark border border-white5 p-8 shadow-xl hoverborder-bronzeGold40 transition-all duration-500 data-aos=fade-left data-aos-duration=1000
+                    h3 class=font-serif text-xl text-white tracking-wide mb-6 border-b border-white5 pb-4Retainer Allocations Includeh3
+                    ul class=space-y-4 text-xs text-white70 font-light
+                        li class=flex items-start
+                            span class=text-bronzeGold mr-3 font-serif text-baseI.span
+                            spanstrongAssignment of Dedicated Counselstrong Immediate pairing with a Senior Sovereign Agent for private correspondence via encrypted channels.span
+                        li
+                        li class=flex items-start
+                            span class=text-bronzeGold mr-3 font-serif text-baseII.span
+                            spanstrongClassified Dossier Accessstrong Full orbital mechanics, atmospheric profiles, and mineral valuation data for unlisted Class-I exoplanets.span
+                        li
+                        li class=flex items-start
+                            span class=text-bronzeGold mr-3 font-serif text-baseIII.span
+                            spanstrongGeneva Title Pre-Registrationstrong Archival framing and heraldic engraving prep in our Swiss manufacturing vaults.span
+                        li
+                        li class=flex items-start
+                            span class=text-bronzeGold mr-3 font-serif text-baseIV.span
+                            spanstrongPrivate Handover Schedulingstrong Coordination of the physical ceremony at your private estate, yacht, or our Geneva facilities.span
+                        li
+                    ul
+                div
+            div
 
-            <!-- The Stripe Checkout Box -->
-            <div class="border border-bronzeGold/30 bg-slateDark/80 p-10 md:p-16 text-center relative mb-20 shadow-2xl">
-                <div class="absolute top-2 left-2 w-4 h-4 border-t border-l border-bronzeGold/60"></div>
-                <div class="absolute top-2 right-2 w-4 h-4 border-t border-r border-bronzeGold/60"></div>
-                <div class="absolute bottom-2 left-2 w-4 h-4 border-b border-l border-bronzeGold/60"></div>
-                <div class="absolute bottom-2 right-2 w-4 h-4 border-b border-r border-bronzeGold/60"></div>
+            !-- The Stripe Checkout Box --
+            div class=border border-bronzeGold30 bg-slateDark80 p-10 mdp-16 text-center relative mb-20 shadow-2xl hoverborder-bronzeGold60 transition-all duration-700 transform hover-translate-y-1 data-aos=zoom-in data-aos-duration=1000
+                div class=absolute top-2 left-2 w-4 h-4 border-t border-l border-bronzeGold60div
+                div class=absolute top-2 right-2 w-4 h-4 border-t border-r border-bronzeGold60div
+                div class=absolute bottom-2 left-2 w-4 h-4 border-b border-l border-bronzeGold60div
+                div class=absolute bottom-2 right-2 w-4 h-4 border-b border-r border-bronzeGold60div
 
-                <span class="text-[10px] tracking-[0.4em] uppercase text-white/40 block mb-3">Formal Vetting Requirement</span>
-                <h2 class="font-serif text-3xl md:text-5xl font-light text-white tracking-wide mb-4">Archival Consultation Retainer</h2>
+                span class=text-[10px] tracking-[0.4em] uppercase text-white40 block mb-3Formal Vetting Requirementspan
+                h2 class=font-serif text-3xl mdtext-5xl font-light text-white tracking-wide mb-4Archival Consultation Retainerh2
                 
-                <div class="my-6">
-                    <span class="font-serif text-4xl md:text-5xl text-bronzeGold">$20,000</span>
-                    <span class="text-xs text-white/50 uppercase tracking-widest block mt-1">USD — One-Time Retainer & Vetting Fee</span>
-                </div>
+                div class=my-6
+                    span class=font-serif text-4xl mdtext-5xl text-bronzeGold$20,000span
+                    span class=text-xs text-white50 uppercase tracking-widest block mt-1USD — One-Time Retainer & Vetting Feespan
+                div
 
-                <p class="text-xs text-white/50 max-w-lg mx-auto mb-10 font-light leading-relaxed">
+                p class=text-xs text-white50 max-w-lg mx-auto mb-10 font-light leading-relaxed
                     By submitting this retainer, you authorize our Geneva registry to begin preliminary title mapping and open your secure encrypted correspondence line.
-                </p>
+                p
 
-                <!-- YOUR REAL STRIPE PAYMENT LINK IS INTEGRATED BELOW -->
-                <a href="https://buy.stripe.com/7sY5kCb5UenLeslfYQasg00" class="inline-block w-full sm:w-auto bg-bronzeGold hover:bg-bronzeHover text-obsidian px-12 py-5 text-xs tracking-[0.3em] uppercase font-bold transition-all duration-300 shadow-xl">
+                !-- YOUR REAL STRIPE PAYMENT LINK IS LIVE BELOW --
+                a href=httpsbuy.stripe.com7sY5kCb5UenLeslfYQasg00 class=inline-block w-full smw-auto bg-bronzeGold hoverbg-bronzeHover text-obsidian px-12 py-5 text-xs tracking-[0.3em] uppercase font-bold hovershadow-[0_0_35px_rgba(197,168,128,0.5)] transition-all duration-500 transform hover-translate-y-0.5
                     Proceed to Secure Gateway — $20,000 USD
-                </a>
+                a
 
-                <div class="mt-8 flex justify-center items-center space-x-6 text-[9px] tracking-[0.2em] uppercase text-white/30">
-                    <span>256-Bit Encrypted</span>
-                    <span>•</span>
-                    <span>Stripe Sovereign Gateway</span>
-                    <span>•</span>
-                    <span>Swiss Seal Compliant</span>
-                </div>
-            </div>
+                div class=mt-8 flex justify-center items-center space-x-6 text-[9px] tracking-[0.2em] uppercase text-white30
+                    span256-Bit Encryptedspan
+                    span•span
+                    spanStripe Sovereign Gatewayspan
+                    span•span
+                    spanSwiss Seal Compliantspan
+                div
+            div
 
-            <!-- Expectations Protocol -->
-            <div class="text-center max-w-2xl mx-auto">
-                <span class="text-[9px] tracking-[0.3em] uppercase text-bronzeGold block mb-3">Post-Submission Timeline</span>
-                <h3 class="font-serif text-2xl font-light text-white mb-4">What Follows Your Retainer</h3>
-                <p class="text-xs text-white/40 leading-relaxed font-light">
+            !-- Expectations Protocol --
+            div class=text-center max-w-2xl mx-auto data-aos=fade-up data-aos-duration=1000
+                span class=text-[9px] tracking-[0.3em] uppercase text-bronzeGold block mb-3Post-Submission Timelinespan
+                h3 class=font-serif text-2xl font-light text-white mb-4What Follows Your Retainerh3
+                p class=text-xs text-white40 leading-relaxed font-light
                     Within 24 hours of retainer clearance, your designated Sovereign Agent will reach out via your provided encrypted contact method to schedule your initial private audience. Physical dossier packets will be dispatched from Switzerland via secured courier within 72 hours.
-                </p>
-            </div>
+                p
+            div
 
-        </div>
-    </section>
+        div
+    section
 
-    <!-- Footer -->
-    <footer class="border-t border-white/5 py-12 px-6">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] tracking-[0.2em] uppercase text-white/40 gap-6">
-            <div>
+    !-- Footer --
+    footer class=border-t border-white5 py-12 px-6
+        div class=max-w-7xl mx-auto flex flex-col mdflex-row justify-between items-center text-[10px] tracking-[0.2em] uppercase text-white40 gap-6
+            div
                 &copy; 2026 Celestial Sovereignty. Handled Under Private Swiss Seal.
-            </div>
-            <div class="flex space-x-6">
-                <span>Geneva Vaults</span>
-                <span>Interstellar Registry</span>
-                <span>Confidential Protocol</span>
-            </div>
-        </div>
-    </footer>
+            div
+            div class=flex space-x-6
+                spanGeneva Vaultsspan
+                spanInterstellar Registryspan
+                spanConfidential Protocolspan
+            div
+        div
+    footer
 
-</body>
-</html>
+    !-- AOS Animation Engine Script --
+    script src=httpsunpkg.comaos@2.3.1distaos.jsscript
+    script
+        AOS.init({
+            once true,
+            offset 50,
+            easing 'ease-out-cubic',
+        });
+    script
+body
+html
