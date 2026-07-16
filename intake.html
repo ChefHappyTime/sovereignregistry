@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Intake & Encrypted Dispatch | Celestial Sovereignty</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        obsidian: '#070709',
+                        slateDark: '#121216',
+                        bronzeGold: '#C5A880',
+                        bronzeHover: '#B3946B',
+                        starWhite: '#F3F4F6',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .ambient-glow {
+            background: radial-gradient(circle at 50% 30%, rgba(197, 168, 128, 0.12) 0%, rgba(7, 7, 9, 0) 70%);
+        }
+    </style>
+</head>
+<body class="bg-obsidian text-starWhite font-sans antialiased selection:bg-bronzeGold selection:text-obsidian min-h-screen flex flex-col justify-between">
+
+    <!-- Top Border -->
+    <div class="h-1 bg-gradient-to-r from-transparent via-bronzeGold to-transparent w-full"></div>
+
+    <!-- Header -->
+    <header class="max-w-7xl mx-auto px-6 py-8 w-full flex justify-between items-center border-b border-white/5" data-aos="fade-down" data-aos-duration="1000">
+        <div class="flex flex-col">
+            <span class="font-serif text-xl md:text-2xl tracking-[0.25em] uppercase text-bronzeGold font-light">Celestial Sovereignty</span>
+            <span class="text-[9px] tracking-[0.4em] uppercase text-white/40 mt-1">Private Registry & Counsel</span>
+        </div>
+        <div>
+            <span class="border border-bronzeGold/40 bg-bronzeGold/10 px-4 py-2 text-[9px] tracking-[0.3em] uppercase text-bronzeGold font-semibold">
+                ✓ Retainer Verified ($20,000 USD)
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="ambient-glow px-6 py-16 flex-grow flex items-center">
+        <div class="max-w-3xl mx-auto w-full">
+            
+            <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="1000">
+                <span class="text-[10px] tracking-[0.5em] uppercase text-bronzeGold">Step 2 of 2: Confidential Intake</span>
+                <h1 class="font-serif text-4xl md:text-5xl font-light tracking-wide text-white mt-3 mb-4">Register Encrypted Counsel Line</h1>
+                <p class="text-xs md:text-sm text-white/60 max-w-xl mx-auto font-light leading-relaxed">
+                    Your consultation retainer has cleared our secure gateway. Please register your Principal or Agent credentials below to assign your dedicated Swiss counsel and initiate 256-bit encrypted dialogue.
+                </p>
+            </div>
+
+            <!-- VIP ENCRYPTED FORM -->
+            <div class="border border-bronzeGold/50 bg-slateDark/95 p-8 md:p-14 shadow-2xl relative" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-bronzeGold to-transparent"></div>
+                
+                <form action="https://formsubmit.co/celestialsovereigntyaquistions@gmail.com" method="POST" class="space-y-6">
+                    
+                    <!-- FormSubmit Security Configuration -->
+                    <input type="hidden" name="_subject" value="🚨 PAID RETAINER ($20k Cleared) — VIP Encrypted Intake Registration">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <!-- Redirects client back to home after submitting credentials -->
+                    <input type="hidden" name="_next" value="https://celestialsovereignty.com">
+                    
+                    <!-- Name & Representation -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-[10px] tracking-[0.2em] uppercase text-white/70 mb-2 font-semibold">Principal or Agent Name *</label>
+                            <input type="text" name="Client_Name" required placeholder="e.g., Lord H. Vance / Director of Acquisitions" 
+                                class="w-full bg-obsidian border border-white/10 focus:border-bronzeGold px-4 py-3 text-xs text-white placeholder-white/20 focus:outline-none transition-colors duration-300">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] tracking-[0.2em] uppercase text-white/70 mb-2 font-semibold">Representing Entity *</label>
+                            <input type="text" name="Representing" required placeholder="e.g., Private Family Office / Trust / Self" 
+                                class="w-full bg-obsidian border border-white/10 focus:border-bronzeGold px-4 py-3 text-xs text-white placeholder-white/20 focus:outline-none transition-colors duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Channel Selector & Handle -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-[10px] tracking-[0.2em] uppercase text-white/70 mb-2 font-semibold">Preferred Encrypted Channel *</label>
+                            <select name="Encrypted_Channel" required 
+                                class="w-full bg-obsidian border border-white/10 focus:border-bronzeGold px-4 py-3 text-xs text-white focus:outline-none transition-colors duration-300">
+                                <option value="Signal (Encrypted Phone/Chat)">Signal (Encrypted Phone / Chat)</option>
+                                <option value="Session (Decentralized ID)">Session (Decentralized ID)</option>
+                                <option value="ProtonMail / PGP Email">ProtonMail / PGP Email</option>
+                                <option value="Secure Video Counsel (Zoom/Meet)">Secure Video Counsel</option>
+                                <option value="Direct Phone / Cellular">Direct Phone / Cellular</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-[10px] tracking-[0.2em] uppercase text-white/70 mb-2 font-semibold">Channel ID / Handle / Number *</label>
+                            <input type="text" name="Contact_Handle" required placeholder="Your Signal Number, Session ID, or Email" 
+                                class="w-full bg-obsidian border border-white/10 focus:border-bronzeGold px-4 py-3 text-xs text-white placeholder-white/20 focus:outline-none transition-colors duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Brief Message -->
+                    <div>
+                        <label class="block text-[10px] tracking-[0.2em] uppercase text-white/70 mb-2 font-semibold">Class-I Property Focus & Timeline *</label>
+                        <textarea name="Message_Context" rows="3" required placeholder="Specify any target constellations, required handover timeline, or preliminary architectural preferences for your Swiss monolith..." 
+                            class="w-full bg-obsidian border border-white/10 focus:border-bronzeGold px-4 py-3 text-xs text-white placeholder-white/20 focus:outline-none transition-colors duration-300"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center pt-4">
+                        <button type="submit" 
+                            class="w-full bg-bronzeGold hover:bg-bronzeHover text-obsidian px-12 py-5 text-xs tracking-[0.3em] uppercase font-bold hover:shadow-[0_0_35px_rgba(197,168,128,0.5)] transition-all duration-500 transform hover:-translate-y-0.5">
+                            Transmit Credentials to Designated Counsel
+                        </button>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <span class="text-[9px] tracking-[0.2em] uppercase text-white/30 block">Zero-Log Routing • End-to-End Client Privacy Protocol</span>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/5 py-8 px-6 w-full">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] tracking-[0.2em] uppercase text-white/40 gap-4">
+            <div>&copy; 2026 Celestial Sovereignty. Handled Under Private Swiss Seal.</div>
+            <div class="flex space-x-6">
+                <span>Geneva Vaults</span>
+                <span>Interstellar Registry</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Engine Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, offset: 50, easing: 'ease-out-cubic' });
+    </script>
+</body>
+</html>
